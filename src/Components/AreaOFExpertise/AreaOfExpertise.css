@@ -1,0 +1,140 @@
+.expertise-section {
+    background-color: #ffffff; /* Light grey background for contrast */
+    .expertise-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0;
+    }
+  .expertise-header {
+    text-align: center; /* Center the header */
+  }
+  
+  h1 {
+    font-size: 48px; /* Large font for the header */
+    color:#007BFF; /* Darker text for better visibility */
+    text-transform: uppercase; /* Uppercase letters for a formal touch */
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .expertise-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Wrap items to new lines */
+    gap: 2rem; /* Space between items */
+    margin-top: 80px;
+  }
+  
+  .expertise-item {
+    background-color: #fff; /* White background for the cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 1.5rem; /* Internal padding */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    width: 400px; /* Fixed width for cards */
+    text-align: center; /* Center text */
+  }
+  
+  .expertise-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .expertise-image img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px 10px 0 0; /* Round the top corners */
+  }
+  
+  h3 {
+    font-size: 26px; /* Subheading size */
+    margin: 1rem 0; /* Vertical spacing for subheadings */
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555; /* Softer text color */
+    margin: 0.5rem 0 1rem; /* Spacing above and below */
+  }
+  
+  ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+    text-align: left; /* Align list text to the left */
+  }
+  
+  li {
+    margin-bottom: 0.5rem; /* Space between list items */
+  }
+  
+  strong {
+    color: #333; /* Darker color for emphasis */
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #007BFF; /* Primary button color */
+    color: #fff; /* Text color for buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Internal padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Button text size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove outline on focus */
+  }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+
+    .expertise-container{
+padding: 0 !important;
+    } 
+    .expertise-item {
+      width: 280px !important; /* Adjust width for smaller screens */
+      padding: 1rem; /* Reduce padding for smaller devices */
+    }
+  
+    h1 {
+      font-size:28px !important; /* Smaller header size for mobile */
+    }
+  
+    h3 {
+      font-size: 1.3rem; /* Smaller subheading size for mobile */
+    }
+  
+    p {
+      font-size: 0.9rem; /* Smaller paragraph size for mobile */
+    }
+  
+    button {
+      font-size: 0.9rem; /* Adjust button size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem; /* Further reduce header size for very small devices */
+    }
+  
+    h3 {
+      font-size: 1.2rem; /* Further reduce subheading size */
+    }
+  
+    p {
+      font-size: 0.8rem; /* Further reduce paragraph size */
+    }
+  }
+  

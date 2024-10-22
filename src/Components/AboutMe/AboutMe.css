@@ -1,0 +1,125 @@
+/* General Section Styling */
+.about-me-section {
+    position: relative;
+    width: 100vw;
+    background-color: #f4f4f4;
+  }
+  
+  .about-me-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  
+  /* Background Image */
+  .about-me-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60vh;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    opacity: 0.6;
+  }
+  
+  /* Profile Image Styling */
+  .about-me-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-30%);
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  /* Text Content Styling */
+  .about-me-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width:80vw;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50px);
+  }
+  
+  .about-me-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:#4A90E2;
+  }
+  
+  .about-me-text p {
+    font-size: 21px;
+    color: #616161;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-me-container {
+      padding: 20px;
+    }
+  
+    .about-me-content {
+      padding: 30px 15px;
+    }
+  
+    .about-me-text h1 {
+      font-size: 28px;
+    }
+  
+    .about-me-text p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-me-content{
+        max-width: 100vw !important;
+    }
+    .about-me-image {
+      width: 120px;
+      height: 120px;
+      transform: translateY(-20%);
+    }
+  
+    .about-me-text h1 {
+      font-size: 32px !important;
+      text-transform: uppercase;
+    }
+    .about-me-text p {
+      font-size: 15px;
+      padding: 0 10px;
+    }
+  }
+  

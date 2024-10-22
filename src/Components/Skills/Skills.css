@@ -1,0 +1,85 @@
+.skills-section{
+    width:100vw;
+    padding:100px 0;
+    background-color: white;
+    h1{
+        font-size: 48px;
+        text-align: center;
+        font-weight: 700;
+        color: #4A90E2;
+    }
+    .skills-div{
+        display: flex;
+        justify-content:start;
+        gap:5%;
+        padding: 0 1vw;
+        padding-left: 50px;
+        margin-top: 60px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            height: 95vh;
+            gap:5vh;
+        }
+        .skills-li-div{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            li{
+                font-size: 28px;
+            }
+            svg{
+                width: 32px;
+                height: auto;
+                color: #4A90E2;
+            }
+        }
+        .skills-left{
+            width: 50%;
+         img{
+            width:40vw;
+            height: 90vh;
+            object-fit: cover;
+            object-position: top;
+         }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+     .skills-div{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px !important;
+        padding-left: 0 !important;
+        .skills-left{
+            width: 100% !important;
+            margin-top: 30px;
+        }
+        .skills-right{
+            ul{
+                margin-top: 50px !important;
+                display: grid !important;
+                grid-template-columns: 1fr 1fr;
+                height: auto !important;
+                padding-bottom: 30px;
+                .skills-li-div{
+                    gap: 10px !important;
+                align-items: center !important;
+                }
+                svg{
+                    width: 24px !important;
+                }
+                li{
+                    font-size: 14px !important;
+                    text-align: center !important;
+                    text-align: left !important;
+                }
+            }
+        }
+        img{
+            width: 90% !important;
+            margin: auto !important;
+            height: 30vh !important;
+        }
+     }
+}

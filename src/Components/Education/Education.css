@@ -1,0 +1,114 @@
+/* Main Section Styling */
+.education-section {
+  padding: 64px 16px; /* 4rem to px */
+  background-color: #f4f7fc;
+   width: 100%;
+  span{
+    font-size: 20px;
+  }
+}
+
+.education-section p {
+  font-size: 20px; /* 1rem to px */
+  color: #666;
+}
+
+/* Title Styling */
+.education-section h1 {
+  font-size: 40px; /* 2.5rem to px */
+  color: #4a90e2;
+  margin-bottom: 48px; /* 3rem to px */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* Container for all cards */
+.education-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  gap: 32px; /* 2rem to px */
+}
+
+/* Card Styling */
+.education-card {
+  background-color: #ffffff;
+  padding: 32px; /* 2rem to px */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Styling */
+.education-title {
+  font-size: 28px; /* 1.75rem to px */
+  color: #333;
+  margin-bottom: 16px; /* 1rem to px */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 8px; /* 0.5rem to px */
+}
+
+/* Detail Styling */
+.education-detail {
+  font-weight: 600;
+  color: #4a90e2;
+}
+@media (max-width: 768px) {
+  .education-container {
+    .education-card{
+      padding: 30px 10px 30px 10%;
+    }
+  h2{
+    font-size: 20px;
+  }
+  p{
+    font-size: 16px;
+  }
+  span{
+    font-size: 16px;
+  }
+  }
+}
+/* Responsive Styling for Larger Screens */
+@media (min-width: 768px) {
+  .education-container {
+      grid-template-columns: 1fr; /* Ensure single column */
+      gap: 40px; /* 2.5rem to px */
+  }
+
+  .education-title {
+      font-size: 32px; /* 2rem to px */
+  }
+
+  .education-card {
+      padding: 40px; /* 2.5rem to px */
+  }
+}
+
+@media (min-width: 1200px) {
+  .education-container {
+      grid-template-columns: 1fr; /* Ensure single column */
+  }
+
+  .education-section h1 {
+      font-size: 48px; /* 3rem to px */
+  }
+
+  .education-card {
+      padding: 48px; /* 3rem to px */
+  }
+}
