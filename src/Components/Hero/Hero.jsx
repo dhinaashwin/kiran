@@ -51,6 +51,7 @@ const Hero = () => {
 
             {/* Buttons */}
             <motion.div className="buttons" variants={childVariants}>
+              <a href="https://firebasestorage.googleapis.com/v0/b/shopstop-image.appspot.com/o/KIRAN%20CV.pdf?alt=media&token=13d53174-c9a6-4fc7-844e-1a32df6b3243">
               <motion.button
                 className="button-blue"
                 whileHover={{ scale: 1.05 }} // Hover effect
@@ -58,6 +59,7 @@ const Hero = () => {
               >
                 Download Resume
               </motion.button>
+              </a>
 
               <a href="#contact">
                 <motion.button
@@ -132,6 +134,7 @@ const Hero = () => {
 
             {/* Buttons */}
             <motion.div className="buttons" variants={childVariants}>
+            <a href="https://firebasestorage.googleapis.com/v0/b/shopstop-image.appspot.com/o/KIRAN%20CV.pdf?alt=media&token=13d53174-c9a6-4fc7-844e-1a32df6b3243">
               <motion.button
                 className="button-blue"
                 whileHover={{ scale: 1.05 }} // Hover effect
@@ -139,6 +142,7 @@ const Hero = () => {
               >
                 Download Resume
               </motion.button>
+              </a>
               <a href="#contact">
                 <motion.button
                   className="button-transparent"
