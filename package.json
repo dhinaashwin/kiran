@@ -5,8 +5,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -27,8 +25,7 @@
     "react-router-dom": "^6.26.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
-    "swiper": "^6.8.4",
-    "vercel": "^37.0.0"
+    "swiper": "^6.8.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
