@@ -12,7 +12,6 @@ const AreaOfExpertise = () => {
       description: "Criminal law involves the prosecution and defense of individuals accused of committing crimes.",
       details: [
         "Defense Representation: Representing clients accused of crimes, including felonies and misdemeanors.",
-        "Prosecution: Working for the government to prosecute criminal cases.",
         "Sentencing: Navigating sentencing guidelines and advocating for clients during sentencing hearings.",
         "Appeals: Handling appeals in criminal cases to challenge convictions or sentences.",
         "Negotiation: Engaging in plea bargaining to negotiate lesser charges or reduced sentences."

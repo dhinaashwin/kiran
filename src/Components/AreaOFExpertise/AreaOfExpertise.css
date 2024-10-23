@@ -12,9 +12,9 @@
   
   h1 {
     font-size: 48px; /* Large font for the header */
-    color:#007BFF; /* Darker text for better visibility */
+    color:#4A90E2;
     text-transform: uppercase; /* Uppercase letters for a formal touch */
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
   }
   
@@ -23,7 +23,7 @@
     justify-content: center; /* Center items horizontally */
     flex-wrap: wrap; /* Wrap items to new lines */
     gap: 2rem; /* Space between items */
-    margin-top: 80px;
+    margin-top: 60px;
   }
   
   .expertise-item {
@@ -76,7 +76,7 @@
   
   /* Button Styles */
   button {
-    background-color: #007BFF; /* Primary button color */
+    background-color: #4A90E2; /* Primary button color */    
     color: #fff; /* Text color for buttons */
     border: none; /* Remove default border */
     border-radius: 5px; /* Rounded corners */
@@ -101,6 +101,7 @@
 
     .expertise-container{
 padding: 0 !important;
+margin-top: 50px !important;
     } 
     .expertise-item {
       width: 280px !important; /* Adjust width for smaller screens */
@@ -108,7 +109,7 @@ padding: 0 !important;
     }
   
     h1 {
-      font-size:28px !important; /* Smaller header size for mobile */
+      font-size:32px !important; /* Smaller header size for mobile */
     }
   
     h3 {

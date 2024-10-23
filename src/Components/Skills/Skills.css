@@ -1,11 +1,11 @@
 .skills-section{
     width:100vw;
-    padding:100px 0;
     background-color: white;
+    padding: 50px 0;
     h1{
         font-size: 48px;
         text-align: center;
-        font-weight: 700;
+        font-weight: 900;
         color: #4A90E2;
     }
     .skills-div{
@@ -47,6 +47,9 @@
 }
 @media screen and (max-width: 768px) {
      .skills-div{
+        h1{
+            font-size: 32px !important;
+        }
         flex-direction: column;
         align-items: center;
         margin-top: 20px !important;

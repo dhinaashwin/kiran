@@ -8,7 +8,6 @@ const Achievements = () => {
           <h1>ACHIEVEMENTS</h1>
         </div>
         <div className="achievements-container">
-         
           <div className="achievements-item">
           <h2>Winners</h2>
             <img src="https://res.cloudinary.com/dhina11/image/upload/v1729521832/MOOT_yrxn7d.jpg"></img>

@@ -15,13 +15,12 @@
 
 /* Title Styling */
 .education-section h1 {
-  font-size: 40px; /* 2.5rem to px */
+  font-size: 32px !important; /* 2.5rem to px */
   color: #4a90e2;
   margin-bottom: 48px; /* 3rem to px */
-  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 2px;
   text-align: center;
+  font-weight: 800;
 }
 
 /* Container for all cards */
@@ -83,29 +82,14 @@
   }
   }
 }
-/* Responsive Styling for Larger Screens */
-@media (min-width: 768px) {
-  .education-container {
-      grid-template-columns: 1fr; /* Ensure single column */
-      gap: 40px; /* 2.5rem to px */
-  }
 
-  .education-title {
-      font-size: 32px; /* 2rem to px */
-  }
-
-  .education-card {
-      padding: 40px; /* 2.5rem to px */
-  }
-}
-
-@media (min-width: 1200px) {
+@media (min-width: 769px) {
   .education-container {
       grid-template-columns: 1fr; /* Ensure single column */
   }
 
   .education-section h1 {
-      font-size: 48px; /* 3rem to px */
+      font-size: 48px !important; /* 3rem to px */
   }
 
   .education-card {

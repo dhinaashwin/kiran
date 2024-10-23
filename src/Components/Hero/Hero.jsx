@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { motion } from "framer-motion";
+
 const Hero = () => {
   // Variants for staggered animations
   const containerVariants = {
@@ -18,7 +19,7 @@ const Hero = () => {
     hidden: { opacity: 0, y: 0 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
-  
+
   return (
     <section className="hero_section" id="home">
       <div className="hero_web mt-2">
@@ -52,13 +53,13 @@ const Hero = () => {
             {/* Buttons */}
             <motion.div className="buttons" variants={childVariants}>
               <a href="https://firebasestorage.googleapis.com/v0/b/shopstop-image.appspot.com/o/KIRAN%20CV.pdf?alt=media&token=13d53174-c9a6-4fc7-844e-1a32df6b3243">
-              <motion.button
-                className="button-blue"
-                whileHover={{ scale: 1.05 }} // Hover effect
-                whileTap={{ scale: 0.95 }} // Tap effect
-              >
-                Download Resume
-              </motion.button>
+                <motion.button
+                  className="button-blue"
+                  whileHover={{ scale: 1.05 }} // Hover effect
+                  whileTap={{ scale: 0.95 }} // Tap effect
+                >
+                  Download Resume
+                </motion.button>
               </a>
 
               <a href="#contact">
@@ -74,33 +75,41 @@ const Hero = () => {
 
             {/* Social Icons */}
             <motion.div className="icons" variants={childVariants}>
-              <motion.div
-                className="icon icon-1"
-                whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
-              >
-                <img
-                  src="https://res.cloudinary.com/dhina11/image/upload/v1729283407/linkedin_kwxva4.png"
-                  alt="LinkedIn"
-                />
-              </motion.div>
-              <motion.div
-                className="icon icon-2"
-                whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
-              >
-                <img
-                  src="https://res.cloudinary.com/dhina11/image/upload/v1729283490/instagram_lvx5d5.png"
-                  alt="Instagram"
-                />
-              </motion.div>
-              <motion.div
-                className="icon icon-3"
-                whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
-              >
-                <img
-                  src="https://res.cloudinary.com/dhina11/image/upload/v1729283407/gmail_ikguoq.png"
-                  alt="Gmail"
-                />
-              </motion.div>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <motion.div
+                  className="icon icon-1"
+                  whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
+                >
+                  <img
+                    src="https://res.cloudinary.com/dhina11/image/upload/v1729283407/linkedin_kwxva4.png"
+                    alt="LinkedIn"
+                  />
+                </motion.div>
+              </a>
+
+              <a href="https://www.instagram.com/kiran_rup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  target="_blank" rel="noopener noreferrer">
+                <motion.div
+                  className="icon icon-2"
+                  whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
+                >
+                  <img
+                    src="https://res.cloudinary.com/dhina11/image/upload/v1729283490/instagram_lvx5d5.png"
+                    alt="Instagram"
+                  />
+                </motion.div>
+              </a>
+
+              <a href="mailto:kiranrup05@gmail.com" target="_blank" rel="noopener noreferrer">
+                <motion.div
+                  className="icon icon-3"
+                  whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
+                >
+                  <img
+                    src="https://res.cloudinary.com/dhina11/image/upload/v1729283407/gmail_ikguoq.png"
+                    alt="Gmail"
+                  />
+                </motion.div>
+              </a>
             </motion.div>
           </motion.div>
         </motion.div>
@@ -134,15 +143,16 @@ const Hero = () => {
 
             {/* Buttons */}
             <motion.div className="buttons" variants={childVariants}>
-            <a href="https://firebasestorage.googleapis.com/v0/b/shopstop-image.appspot.com/o/KIRAN%20CV.pdf?alt=media&token=13d53174-c9a6-4fc7-844e-1a32df6b3243">
-              <motion.button
-                className="button-blue"
-                whileHover={{ scale: 1.05 }} // Hover effect
-                whileTap={{ scale: 0.95 }} // Tap effect
-              >
-                Download Resume
-              </motion.button>
+              <a href="https://firebasestorage.googleapis.com/v0/b/shopstop-image.appspot.com/o/KIRAN%20CV.pdf?alt=media&token=13d53174-c9a6-4fc7-844e-1a32df6b3243">
+                <motion.button
+                  className="button-blue"
+                  whileHover={{ scale: 1.05 }} // Hover effect
+                  whileTap={{ scale: 0.95 }} // Tap effect
+                >
+                  Download Resume
+                </motion.button>
               </a>
+
               <a href="#contact">
                 <motion.button
                   className="button-transparent"
@@ -165,6 +175,7 @@ const Hero = () => {
                   alt="LinkedIn"
                 />
               </motion.div>
+
               <motion.div
                 className="icon icon-2"
                 whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
@@ -174,15 +185,18 @@ const Hero = () => {
                   alt="Instagram"
                 />
               </motion.div>
-              <motion.div
-                className="icon icon-3"
-                whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
-              >
-                <img
-                  src="https://res.cloudinary.com/dhina11/image/upload/v1729283407/gmail_ikguoq.png"
-                  alt="Gmail"
-                />
-              </motion.div>
+
+              <a href="mailto:kiranrup05@gmail.com" target="_blank" rel="noopener noreferrer">
+                <motion.div
+                  className="icon icon-3"
+                  whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
+                >
+                  <img
+                    src="https://res.cloudinary.com/dhina11/image/upload/v1729283407/gmail_ikguoq.png"
+                    alt="Gmail"
+                  />
+                </motion.div>
+              </a>
             </motion.div>
           </motion.div>
         </motion.div>

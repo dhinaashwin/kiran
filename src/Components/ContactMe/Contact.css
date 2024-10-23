@@ -93,10 +93,11 @@ input:focus {
     border-color: #007bff;
 }
 
-.message {
-    height: 120px;
+textarea{
+    height: 120px !important;
     resize: none;
-
+    background-color: #eee;
+    padding-left: 12px;
 }
 
 button {
@@ -120,9 +121,11 @@ button:hover {
     .contact-container {
         flex-direction: column;
         .right-container {
-            form{
-                margin-top:130px;
-            }
+            
+                .contact-form h2{
+                     margin-top: 40px;
+                }
+    
             .contact-name-div{
                 position: absolute;
                 top: 50%;
@@ -143,7 +146,9 @@ button:hover {
     p {
         font-size: 15px;
     }
-
+           form{
+            margin-top:20px !important;
+           }
     input, .message {
         width: 80vw;
     }

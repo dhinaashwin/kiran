@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false); // Hide loading screen after 2 seconds (simulate loading)
-    }, 2000);
+    }, 4000);
 
     return () => clearTimeout(timer); // Cleanup the timer when component unmounts
   }, []);
@@ -34,12 +34,12 @@ function App() {
       <Navbar />
       <Hero />
       <AboutMe />
-      {/* <AreaOfExpertise />
+      <AreaOfExpertise />
       <Skills />
       <Experience />
       <Education />
       <Achievements />
-      <Contact /> */}
+      <Contact /> 
     </div>
   );
 }
