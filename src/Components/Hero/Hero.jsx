@@ -75,7 +75,11 @@ const Hero = () => {
 
             {/* Social Icons */}
             <motion.div className="icons" variants={childVariants}>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <motion.div
                   className="icon icon-1"
                   whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
@@ -87,7 +91,11 @@ const Hero = () => {
                 </motion.div>
               </a>
 
-              <a href="https://www.instagram.com/kiran_rup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="  target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/kiran_rup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <motion.div
                   className="icon icon-2"
                   whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
@@ -99,7 +107,11 @@ const Hero = () => {
                 </motion.div>
               </a>
 
-              <a href="mailto:kiranrup05@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="mailto:kiranrup05@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <motion.div
                   className="icon icon-3"
                   whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
@@ -166,27 +178,41 @@ const Hero = () => {
 
             {/* Social Icons */}
             <motion.div className="icons" variants={childVariants}>
-              <motion.div
-                className="icon icon-1"
-                whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <img
-                  src="https://res.cloudinary.com/dhina11/image/upload/v1729283407/linkedin_kwxva4.png"
-                  alt="LinkedIn"
-                />
-              </motion.div>
-
-              <motion.div
-                className="icon icon-2"
-                whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
+                <motion.div
+                  className="icon icon-1"
+                  whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
+                >
+                  <img
+                    src="https://res.cloudinary.com/dhina11/image/upload/v1729283407/linkedin_kwxva4.png"
+                    alt="LinkedIn"
+                  />
+                </motion.div>
+              </a>
+              <a
+                href="https://www.instagram.com/kiran_rup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <img
-                  src="https://res.cloudinary.com/dhina11/image/upload/v1729283490/instagram_lvx5d5.png"
-                  alt="Instagram"
-                />
-              </motion.div>
-
-              <a href="mailto:kiranrup05@gmail.com" target="_blank" rel="noopener noreferrer">
+                <motion.div
+                  className="icon icon-2"
+                  whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
+                >
+                  <img
+                    src="https://res.cloudinary.com/dhina11/image/upload/v1729283490/instagram_lvx5d5.png"
+                    alt="Instagram"
+                  />
+                </motion.div>
+              </a>
+              <a
+                href="mailto:kiranrup05@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <motion.div
                   className="icon icon-3"
                   whileHover={{ scale: 1.04, rotate: 15 }} // Rotate on hover
