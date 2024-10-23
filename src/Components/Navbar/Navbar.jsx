@@ -115,7 +115,7 @@ const Navbar = () => {
           >
             <ul>
               <li onClick={() => {scrollToSection("#home"); toggleMobileMenu();}}>Home</li>
-              <li onClick={() => {scrollToSection("#Education"); toggleMobileMenu();}}>Education</li>
+              <li onClick={() => {scrollToSection("#education"); toggleMobileMenu();}}>Education</li>
               <li onClick={() => {scrollToSection("#experience"); toggleMobileMenu();}}>Experience</li>
               <li onClick={() => {scrollToSection("#AreaOfExpertise"); toggleMobileMenu();}}>Area Of Expertise</li>
               <li onClick={() => {scrollToSection("#achievements"); toggleMobileMenu();}}>Achievements</li>
