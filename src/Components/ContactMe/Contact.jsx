@@ -21,7 +21,7 @@ const Contact = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('https://kiran-server.vercel.app', {
+      const response = await fetch('https://kiran-server.vercel.app/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
